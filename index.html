@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Madhavbaug Aundh 3-month Diabetes Reversal | Free Assessment</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Ccircle cx=%2232%22 cy=%2232%22 r=%2232%22 fill=%22%23006781%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-size=%2236%22 text-anchor=%22middle%22 fill=%22white%22%3EM%3C/text%3E%3C/svg%3E">
+    <meta name="description" content="Join Madhavbaug Aundh's 3-month clinically supervised Ayurvedic diabetes reversal program. Book your FREE first consultation and diabetes assessment with Dr. Jyoti Kshirsagar.">
+    <meta name="keywords" content="Madhavbaug Aundh, diabetes reversal, ayurvedic diabetes treatment, Dr Jyoti Kshirsagar, free diabetes assessment, preventive cardiologist">
+    <meta name="author" content="Madhavbaug Aundh">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#006781">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Madhavbaug Aundh 3-month Diabetes Reversal | Free Assessment">
+    <meta property="og:description" content="Book your FREE first consultation and diabetes assessment under clinically supervised Ayurveda at Madhavbaug Aundh.">
+    <meta property="og:image" content="assets/logo.png">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Madhavbaug Aundh 3-month Diabetes Reversal | Free Assessment">
+    <meta name="twitter:description" content="FREE first consultation + diabetes assessment with Dr. Jyoti Kshirsagar at Madhavbaug Aundh.">
+    <meta name="twitter:image" content="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
     <!-- Google Fonts & UI Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -220,6 +239,11 @@
 }
 
         @media (max-width: 768px) {
+            .authority-section.container {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
             .authority-section .h2 {
                 text-align: center;
                 margin-bottom: 24px !important;
@@ -243,7 +267,7 @@
             }
 
             .authority-research-card {
-                padding: 20px !important;
+                padding: 18px 14px !important;
                 border-radius: 22px !important;
             }
 
@@ -253,7 +277,7 @@
             }
 
             .authority-award-card {
-                padding: 18px 20px !important;
+                padding: 16px 14px !important;
                 min-height: 0 !important;
                 border-radius: 20px !important;
                 display: flex !important;
@@ -264,6 +288,17 @@
                 margin-bottom: 0 !important;
                 margin-right: 10px !important;
                 flex-shrink: 0;
+            }
+
+            .solution-section.container {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .solution-panel {
+                padding: 28px 14px !important;
+                border-radius: 34px !important;
+                margin: 20px 0 !important;
             }
         }
         /* cards */
@@ -318,31 +353,114 @@
 
         .review-strip {
             display: flex;
-            gap: 20px;
+            flex-wrap: nowrap;
+            gap: 18px;
+            padding: 8px 0;
             overflow-x: auto;
-            padding: 14px;
-            background: white;
-            border-radius: 0;
         }
 
         .review-pill {
-            background: #f8f9fa;
-            border-radius: 24px;
-            min-width: 280px;
+            background: #f7f7f7;
+            border-radius: 20px;
+            padding: 26px 28px;
+            border: 1px solid #ececec;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+            color: #2a2f36;
+            min-width: 320px;
             flex: 1 1 0;
-            padding: 24px 28px;
-            box-shadow: none;
+        }
+
+        .review-quote {
+            font-size: 1.05rem;
+            line-height: 1.45;
+            font-style: italic;
+            color: #40444c;
+        }
+
+        .review-quote::before {
+            content: "“";
+            color: #e1e1e1;
+            font-size: 3.1rem;
+            margin-right: 6px;
+            line-height: 0;
+            vertical-align: -6px;
+        }
+
+        .review-profile {
             display: flex;
             align-items: center;
-            line-height: 1.35;
+            gap: 14px;
+        }
+
+        .review-avatar {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background: #eceef1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #8b93a0;
+            font-size: 1.5rem;
+        }
+
+        .review-name {
             font-size: 1.05rem;
-            color: #1f2a33;
+            font-weight: 700;
+            line-height: 1.2;
         }
 
         .review-stars {
-            font-size: 1rem;
-            letter-spacing: 1px;
-            margin-right: 4px;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            color: #f2c318;
+            line-height: 1;
+        }
+
+        @media (max-width: 768px) {
+            .review-strip {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 14px;
+                padding: 8px 0 12px;
+                overflow-x: visible;
+            }
+
+            .review-pill {
+                min-width: 0;
+                flex: none;
+                width: 100%;
+                padding: 20px 16px;
+                border-radius: 18px;
+                gap: 12px;
+            }
+
+            .review-quote {
+                font-size: 1rem;
+            }
+
+            .review-profile {
+                gap: 10px;
+            }
+
+            .review-avatar {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+
+            .review-name {
+                font-size: 1rem;
+            }
+
+            .review-stars {
+                font-size: 1.1rem;
+                letter-spacing: 2px;
+            }
         }
 
         /* Sticky CTA */
@@ -406,6 +524,58 @@
             border-radius: 48px 48px 48px 0;
             padding: 48px;
             border: 1px solid rgba(0,103,129,0.2);
+        }
+
+        .doctor-bio-layout {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .doctor-bio-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+            flex: 0 0 200px;
+        }
+
+        .doctor-bio-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        @media (max-width: 768px) {
+            .doctor-bio-card {
+                padding: 22px 14px !important;
+                border-radius: 28px 28px 28px 0 !important;
+            }
+
+            .doctor-bio-layout {
+                display: block !important;
+                text-align: center !important;
+            }
+
+            .doctor-bio-image {
+                width: 160px !important;
+                height: 160px !important;
+                margin: 0 auto 12px !important;
+            }
+
+            .doctor-bio-content {
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            .doctor-bio-content p {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                max-width: 96% !important;
+                line-height: 1.5 !important;
+            }
         }
 
         /* case study card */
@@ -609,7 +779,98 @@
   }
 }
 
+.review-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.review-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.site-footer {
+    background: linear-gradient(135deg, #0b5f74 0%, #084c5d 100%);
+    color: #eaf6fa;
+    margin-top: 56px;
+    padding: 28px 0 24px;
+}
+
+.site-footer .container {
+    max-width: 1100px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.footer-brand {
+    font-family: var(--heading-font);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.footer-badge {
+    font-size: 0.85rem;
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.26);
+    padding: 6px 10px;
+    border-radius: 999px;
+    color: #f0fbff;
+    white-space: nowrap;
+}
+
+.footer-line {
+    margin: 0;
+    font-size: 0.97rem;
+    line-height: 1.6;
+    color: #eaf6fa;
+}
+
+.footer-line i {
+    margin-right: 8px;
+    color: #9fe6ff;
+}
+
+.footer-copy {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.16);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #d7edf5;
+}
+
+@media (max-width: 768px) {
+    .site-footer {
+        padding: 22px 0 18px;
+        margin-top: 40px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .footer-line {
+        font-size: 0.92rem;
+    }
+}
         
         
     </style>
@@ -657,9 +918,9 @@
             </div>
             <!-- Right: doctor image with badge -->
             <div class="hero-right" style="text-align: center; position: relative; margin-top: -180px;">
-                <img class="doctor-photo" src="assets/doctor2.png" alt="Dr. Jyoti Kshirsagar" width="720" height="900" style="width: 800px; max-width: 460px; height: 700px; border-radius: 28px; display: inline-block; object-fit: cover;">
+                <img class="doctor-photo" src="assets/dr.webp" alt="Dr. Jyoti Kshirsagar" width="720" height="900" style="width: 800px; max-width: 460px; height: 500px; border-radius: 28px; display: inline-block; object-fit: cover;">
                 <div class="doctor-card" style="background: white; padding: 10px; border-radius: 20px; width: fit-content; margin: -30px auto 0; box-shadow: 0 12px 20px rgba(0,103,129,0.2); border-left: 8px solid var(--madhav-red); position: relative; z-index: 5;">
-                    <i class="fas fa-user-md" style="color: var(--clinical-teal);"></i> <strong>Dr. Jyoti Kshirsagar</strong> â€“ Preventive Cardiologist & Diabetologist
+                    <i class="fas fa-user-md" style="color: var(--clinical-teal);"></i> <strong>Dr. Jyoti Kshirsagar</strong> Preventive Cardiologist & Diabetologist
                 </div>
             </div>
         </div>
@@ -684,9 +945,9 @@
     <!-- 2ï¸âƒ£ AUTHORITY STACK (doctor block, awards, gallery) -->
     <section class="container section authority-section">
         <h2 class="h2" style="margin-bottom: 40px;">Medical authority you can trust <span style="color: var(--clinical-teal);">Aundh’s most experienced team</span></h2>
-        <div class="grid-2 authority-intro-grid" style="margin-bottom: 50px;">
+        <div class="grid-2 authority-intro-grid" style="margin-bottom: 30px;">
             <div class="card authority-doctor-card" style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
-                <img src="assets/doctor2.png" class="round-img" alt="Dr. Jyoti">
+                <img src="assets/dr.webp" class="round-img" alt="Dr. Jyoti">
                 <div class="authority-doctor-meta">
                     <h3>Dr. Jyoti Kshirsagar</h3>
                     <p style="color: var(--clinical-teal);">
@@ -713,7 +974,7 @@ Preventive Cardiologist &amp; Diabetologist | Clinic Head – Madhavbaug Aundh
         </div>
 
         <!-- Clinic infrastructure & real patient gallery -->
-        <h3 style="text-align: center;">Clinic infrastructure - Aundh</h3>
+        <h3 style="text-align: center;">Gallery</h3>
         <div class="grid-3 clinic-gallery" style="margin: 30px 0;">
             <img src="assets/image (13).png" class="img-responsive" alt="clinic reception">
             <img src="assets/image (16).png" class="img-responsive" alt="consultation room">
@@ -741,9 +1002,9 @@ Preventive Cardiologist &amp; Diabetologist | Clinic Head – Madhavbaug Aundh
     </section>
 
     <!-- 4ï¸âƒ£ SOLUTION PRESENTATION -->
-    <section class="container section">
+    <section class="container section solution-section">
         <h2>3-Month Ayurvedic Diabetes Reversal Program <span style="color: var(--clinical-teal);">(clinically supervised)</span></h2>
-        <div style="background: #F0F8FC; border-radius: 48px; padding: 40px; margin: 30px 0;">
+        <div class="solution-panel" style="background: #F0F8FC; border-radius: 48px; padding: 40px; margin: 30px 0;">
             <div class="grid-3">
                 <div><i class="fas fa-calendar-check icon-teal"></i><h4>Month 1 assessment</h4><p>Baseline HbA1c, metabolic panel, personalised diet & agni correction.</p></div>
                 <div><i class="fas fa-seedling icon-teal"></i><h4>Month 2 deep correction</h4><p>Ayurvedic formulations + lifestyle; weekly doctor tele-consult.</p></div>
@@ -816,9 +1077,37 @@ Preventive Cardiologist &amp; Diabetologist | Clinic Head – Madhavbaug Aundh
             </div>
             <!-- Google review carousel (static) -->
             <div class="review-strip">
-                <div class="review-pill"><span class="review-stars">★★★★★</span>“Reversed my diabetes edge” - Prasad</div>
-                <div class="review-pill"><span class="review-stars">★★★★★</span>“Best Ayurvedic clinic in Aundh” - Meena</div>
-                <div class="review-pill"><span class="review-stars">★★★★★</span>“Professional and ethical” - Suresh</div>
+                <div class="review-pill">
+                    <p class="review-quote">My diabetes markers improved significantly in one month.</p>
+                    <div class="review-profile">
+                        <span class="review-avatar"><img src="assets/avatar3.webp" alt="Prasad Review" class="review-img">
+                        </span>
+                        <div>
+                            <div class="review-name">Prasad</div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-pill">
+                    <p class="review-quote">Best Ayurvedic clinic in Aundh. The team is caring and professional.</p>
+                    <div class="review-profile">
+                        <span class="review-avatar"><img src="assets/avatar1.webp" alt="Meena Review" class="review-img"></span>
+                        <div>
+                            <div class="review-name">Meena</div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-pill">
+                    <p class="review-quote">Very ethical guidance and clear monitoring at each step.</p>
+                    <div class="review-profile">
+                        <span class="review-avatar"><img src="assets/avatra2.jpg" alt="Suresh Review" class="review-img"></span>
+                        <div>
+                            <div class="review-name">Suresh</div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -826,9 +1115,9 @@ Preventive Cardiologist &amp; Diabetologist | Clinic Head – Madhavbaug Aundh
     <!-- PART 2: DOCTOR AUTHORITY BIO (long form premium) -->
     <section class="container section">
         <div class="doctor-bio-card">
-            <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-                <img src="assets/doctor2.png" style="width:200px; height:200px; border-radius: 100px; object-fit:cover;">
-                <div style="flex:1">
+            <div class="doctor-bio-layout">
+                <img class="doctor-bio-image" src="assets/dr.webp" alt="Dr. Jyoti Kshirsagar">
+                <div class="doctor-bio-content">
                     <h2 style="color: var(--madhav-red);">Dr. Jyoti Kshirsagar</h2>
                     <p style="font-size:1.2rem; color: var(--clinical-teal);">Preventive Cardiologist & Diabetologist | 18+ years</p>
                     <p>Dr. Jyoti pioneered the integration of preventive cardiology with evidence-based Ayurveda at Madhavbaug Aundh. After completing DM in cardiology, she observed that patients on maximum medication still progressed. Her research (5 publications) focuses on <strong>insulin resistance modification through ayurvedic interventions</strong>. She leads a team that has documented over 10,000 cases with 80% measurable improvement. Awarded â€˜Excellence in Diabetes Reversalâ€™ 2022. Her philosophy: â€œTreat the root, monitor with modern tools, never compromise on safety.â€ She ensures every patient receives a personalised protocol under strict supervision.</p>
@@ -903,12 +1192,16 @@ Preventive Cardiologist &amp; Diabetologist | Clinic Head – Madhavbaug Aundh
    
 
     <!-- Local SEO footer -->
-    <footer>
+    <!-- <footer class="site-footer">
         <div class="container">
-            <p><i class="fas fa-map-marker-alt"></i> Madhavbaug Aundh â€“ Diabetes Clinic in Aundh, Ayurvedic Diabetes Treatment in Aundh, Diabetes Specialist in Aundh, Preventive Cardiologist in Aundh.</p>
-            <p>Â© 2025 Madhavbaug TM. All rights reserved. This is a health awareness page. Results vary, no guarantee of cure.</p>
+            <div class="footer-top">
+                <div class="footer-brand">Madhavbaug Aundh</div>
+                <div class="footer-badge">Clinically supervised diabetes care</div>
+            </div>
+            <p class="footer-line"><i class="fas fa-map-marker-alt"></i> Diabetes Clinic in Aundh, Ayurvedic Diabetes Treatment in Aundh, Diabetes Specialist in Aundh, Preventive Cardiologist in Aundh.</p>
+            <p class="footer-copy">&copy; 2025 Madhavbaug TM. All rights reserved. This is a health awareness page. Results vary and there is no guarantee of cure.</p>
         </div>
-    </footer>
+    </footer> -->
 
         <!-- tiny FAQ js -->
     <script>
